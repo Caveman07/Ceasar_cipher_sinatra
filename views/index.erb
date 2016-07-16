@@ -1,0 +1,17 @@
+<h1>Cesar Cipher</h1>
+<h3>Enter a message to be encrypted </h3>
+<form method="POST" action="/">
+	<label for="key">Enter encryption key:</label>
+	<input type="number" name="key" value="5">
+	<label for="text">Message:</label>
+	<textarea name="text" placeholder="enter text here" rows="5" cols="50"></textarea>
+	<input type="submit" name="crypto">
+</form>
+<div class="messagebox">
+<% if @message %>
+<h2>Your Message:</h2>
+<%= orig %>
+<h2>Encrypted message:</h2>
+<%= @message %>
+<% end %>
+</div>

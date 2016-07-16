@@ -1,0 +1,12 @@
+form input{
+	display: block;
+	background: #fff;
+	margin-top: 5px;
+	border-style: #f5f5f5;
+}
+
+form textarea {
+	display: block;
+	background: #fff;
+	border-style: #f5f5f5;
+}
